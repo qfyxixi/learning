@@ -66,6 +66,3 @@ repalce from line 1 to the end
 
 3)kill process  
 ```kill -9 PID```  
-
-### usage file ###
-```du -sh *```
