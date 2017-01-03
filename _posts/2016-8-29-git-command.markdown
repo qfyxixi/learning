@@ -1,5 +1,22 @@
 ## git command ##
 
+### merge ###
+
+---
+	git checkout master
+	git pull origin master
+	git merge goalbranch
+	git add file
+	git push origin -u master
+
+---
+
+### rename ###
+```git branch -m oldname new name```
+
+### local file shown related with branch  ###
+1. branch decide file displayed
+
 ### commit ###
 
 - **normal commit** 
@@ -27,7 +44,8 @@
     3)save current branch
 
     ```$ git branch branchname_new```      
-    ```$ git push -u origin branchname_new```  
+    ```$ git push -u origin branchname_new``` 
+
 
 
     
